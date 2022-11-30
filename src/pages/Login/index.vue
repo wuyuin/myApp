@@ -84,7 +84,7 @@ export default {
         this.$message.success("登陆成功")
 
         window.sessionStorage.setItem("token", res.data.token)
-        // 编程式导航
+        // 编程式导航  
         this.$router.push("/home")
 
       })
